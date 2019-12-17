@@ -1,3 +1,5 @@
+library(h2o)
+
 cl <- h2o.init(
   max_mem_size = "3G",
   nthreads = 2)
